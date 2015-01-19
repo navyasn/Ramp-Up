@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,37 +8,65 @@
 
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
     <!-- Custom Style Sheet -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Chewy' rel='stylesheet' type='text/css'>
     <script type="application/javascript" src="website.js"></script>
 </head>
 
 </body>
-    <nav class="navbar navbar-inverse">
+	<!--Navigation panel -->
+    <nav class="navbar navbar-inverse" role="navigation">
      <div class="container">
       <div class="navbar-header">
-       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+		<span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
        </button>
-       <a class="navbar-brand" href="#"><img src="images/servelots_logo.png"</a>
+       <a class="navbar-brand" href="#" onClick="Info();"><img src="images/servelots_logo.png" style="vertical-align:top;height:80px"></a>
       </div>
+      <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav navbar-right">
         <li><span style="color:#FFF">#3354, K.R Road, Bangalore 560070 (INDIA)<br/>Call +91-80-2676-2963
-        	<br/><a href="mailto:totomaster@servelots.com">totomaster(at)servelots(dot)com</a></span></li>
+        </br><a href="mailto:totomaster@servelots.com">totomaster(at)servelots(dot)com</a></span></li>
       </ul>
-      </div><!--/.nav-collapse -->
+      </div> 
      </div>
     </nav>
  
-       
-       
+    <!-- Project Information --> 
+    <div class="container grid_container2">  
 	<div id = "text"> </div>
-	<button onclick = "display('Hampi')">Hampi Project</button>
-	<button onclick = "display('Story')">Sweet Web</button>
-	<button onclick = "display('Library')">Virtual Library</button>
-	<button onclick = "display('Games')">Serious Games</button>
+	<div class="row">
+	<div class="col-md-3"><a href="#" onclick = "display('Hampi')"><img class="img-circle" src="images/hampi.jpg" style="height:110px;background-color:#FFF;;border:#000 solid 2px"></a>Hampi Project</div>
+	<div class="col-md-3"><a href="#" onclick = "display('Story')"><img class="img-circle" src="images/story.jpg" style="height:110px;background-color:#FFF;;border:#000 solid 2px"></a>Sweet Web</div>
+	<div class="col-md-3"><a href="#" onclick = "display('Library')"><img class="img-circle" src="images/library.jpg" style="height:110px;background-color:#FFF;;border:#000 solid 2px"></a>Virtual Library</div>
+	<div class="col-md-3"><a href="#" onclick = "display('Games')"><img class="img-circle" src="images/games.jpg" style="height:110px;background-color:#FFF;;border:#000 solid 2px"></a>Serious Games</div>
+	
+	<div class="row">
+      <div class="col-md-12 spacer">
+        <div id="texty" style="display:none"> </div>
+          <div id="home" style="display:block">
+			  Information about Servelots
+		  </div>
+        </div>
+      </div>
+      
+       <div class="row">
+        <div class="col-md-3"></div>
+         <div class="col-md-6">
+          <a href="#" onClick="user('name1');"><img class="img-circle" src="images/1.jpg" style="height:50px"/></a>
+          <a href="#" onClick="user('name2');"><img class="img-circle" src="images/2.jpg" style="height:50px"/></a>
+          <a href="#" onClick="user('name3');"><img class="img-circle" src="images/3.jpg" style="height:50px"/></a>
+          <a href="#" onClick="user('name4');"><img class="img-circle" src="images/4.jpg" style="height:50px"/></a>
+          <a href="#" onClick="user('name5');"><img class="img-circle" src="images/5.jpg" style="height:50px"/></a>
+          <a href="#" onClick="user('name6');"><img class="img-circle" src="images/6.jpg" style="height:50px"/></a>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+    </div>
 </body>
 </html>

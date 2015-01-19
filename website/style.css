@@ -1,0 +1,43 @@
+/* Adding background image */
+body {
+	background-image: url("../images/back.jpg");
+	background-repeat: no-repeat;
+	background-size: 1400px auto;
+	font-family: arial;
+}
+
+/* Navigation bar */
+.grid_container {
+  padding: 500px 0 0 30px;
+}
+
+/* Project information */
+.grid_container2 {
+  padding: 100px 0 0 30px;
+  text-align: center;
+  font-size: .9em;
+  color: #FFF;
+}
+
+.spacer {
+	height: 350px;
+	text-align: justify;
+}
+
+#texty {
+	height: 250px;
+	margin-top: 50px;
+	padding:10px 15px 10px 15px;
+  	background-color: rgba(0, 0, 0, 0.9);
+  	-moz-border-radius: 80px;
+	border-radius: 80px;
+}
+
+#home {
+	height: 250px;
+	margin-top: 50px;
+	padding:10px 15px 10px 15px;
+	text-align: center;
+	font-size: 1.2em;
+	font-family: 'Chewy'
+}
