@@ -1,8 +1,8 @@
 /* Adding background image */
 body {
-	background-image: url("../images/back.jpg");
+	background-image: url("./images/back.jpg");
 	background-repeat: no-repeat;
-	background-size: 1400px auto;
+	background-size: cover;
 	font-family: arial;
 }
 
@@ -13,9 +13,9 @@ body {
 
 /* Project information */
 .grid_container2 {
-  padding: 100px 0 0 30px;
+  padding: 100px 100px 100px 30px;
   text-align: center;
-  font-size: .9em;
+  font-size: .em;
   color: #FFF;
 }
 

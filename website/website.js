@@ -1,11 +1,11 @@
 function display (selected)
 {
-	document.getElementById("text").innerHTML = "Text related to " + selected + " project"
+	document.getElementById("text").innerHTML = "Text related to " + selected + " project";
 }
 
 function user (name)
 {
-	document.getElementById("text").innerHTML = "Text related to " + name 
+	document.getElementById("text").innerHTML = "Text related to " + name;
 }
 
 function Info(){
