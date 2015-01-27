@@ -1,5 +1,6 @@
 /* Adding background image */
-body {
+body 
+{
 	background-image: url("./images/back.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -7,24 +8,29 @@ body {
 }
 
 /* Navigation bar */
-.grid_container {
+.grid_container 
+{
   padding: 500px 0 0 30px;
+
 }
 
 /* Project information */
-.grid_container2 {
-  padding: 100px 100px 100px 30px;
-  text-align: center;
-  font-size: .em;
+.grid_container2 
+{
+  padding: 100px 100px 100px 30px; 
+  text-align: center; 
+  font-size: 1.2em;
   color: #FFF;
 }
 
-.spacer {
+.spacer 
+{
 	height: 350px;
 	text-align: justify;
 }
 
-#texty {
+#texty 
+{
 	height: 250px;
 	margin-top: 50px;
 	padding:10px 15px 10px 15px;
@@ -33,7 +39,8 @@ body {
 	border-radius: 80px;
 }
 
-#home {
+#home 
+{
 	height: 250px;
 	margin-top: 50px;
 	padding:10px 15px 10px 15px;
