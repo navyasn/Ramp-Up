@@ -1,16 +1,16 @@
 function display (selected)
 {
-	document.getElementById("information").innerHTML = "Text related to " + selected + " project";
-	document.getElementById("home").style.display="block";
-	document.getElementById("texty").style.display="none";
+	document.getElementById("texty").innerHTML = "Text related to " + selected + " project.";
+	document.getElementById("texty").style.display="block";
+	document.getElementById("block").style.display="none";
     
 }
 
 function user (name)
 {
-	document.getElementById("information").innerHTML = "Text related to " + name;
-	document.getElementById("home").style.display="block";
-	document.getElementBysId("texty").style.display="none";
+	document.getElementById("texty").innerHTML = "Text related to " + name;
+	document.getElementById("texty").style.display="block";
+	document.getElementById("block").style.display="none";
 }
 
 function Info()
